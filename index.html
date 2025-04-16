@@ -1,23 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>A Monk in Cloud</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverless Visitor Counter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<h1>Greeting App</h1>
-        <div class="counter-number">Views</div>
-	</header>
-	<main>
-		<form>
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name">
-			<button id="submit-btn">Submit</button>
-		</form>
-		<p id="greeting"></p>
-	</main>
-	<script src="script.js"></script>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1><i class="fas fa-cloud"></i> Serverless Greeter</h1>
+                <div class="counter">
+                    <i class="fas fa-eye"></i>
+                    <span id="counter-number">Loading...</span>
+                </div>
+            </div>
+            
+            <div class="content">
+                <form id="greeter-form">
+                    <div class="input-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <button type="submit" class="btn">
+                        <i class="fas fa-paper-plane"></i> Greet Me
+                    </button>
+                </form>
+                
+                <div id="greeting" class="greeting-box"></div>
+            </div>
+            
+            <div class="footer">
+                <p>Powered by AWS Lambda & DynamoDB</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
- 
