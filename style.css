@@ -1,4 +1,4 @@
-/* header {
+ /* header {
 	background-color: #333;
 	color: #fff;
 	padding: 10px;
@@ -37,7 +37,7 @@ button {
 #greeting {
 	margin-top: 20px;
 	font-size: 1.2rem;
-} */
+}  */
 
 
 
@@ -112,6 +112,12 @@ body {
 
 .counter i {
     margin-right: 8px;
+}
+
+#counter-number {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
 }
 
 .content {
@@ -204,4 +210,4 @@ input[type="text"]:focus {
     .content {
         padding: 20px;
     }
-}
+} 
