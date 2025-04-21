@@ -8,14 +8,14 @@ In this project, you will build a serverless web application using AWS Lambda, D
 
 ### Project Architecture:
 
-![Serverless Web Application on AWS Architecture](https://user-images.githubusercontent.com/66474973/228492073-5cd3d975-3439-4ce4-b109-fb33997df3c3.png)
+<!-- ![Serverless Web Application on AWS Architecture](https://user-images.githubusercontent.com/66474973/228492073-5cd3d975-3439-4ce4-b109-fb33997df3c3.png) -->
 
 ### Steps to Build the Project:
 
-* Create a DynamoDB table to store the items. \
-* Build a Lambda function to handle the CRUD operations on the DynamoDB table. \
 * Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript). \
 * Create a CloudFront distribution to serve the S3-hosted static files with low latency. \
+* Create a DynamoDB table to store the items. \
+* Build a Lambda function to handle the CRUD operations on the DynamoDB table. \
 
 ### Expected Outcome:
 
@@ -29,23 +29,7 @@ Link to the documentation: https://docs.google.com/document/d/1FKIs7_yF0D98dHC1D
 
 
 
-Follow our tutorials here: https://www.youtube.com/@amonkincloud/videos \
-Follow our blog here: https://amonkincloud.com/ \
-Follow my personal blog here:https://dev.to/yeshwanthlm/ \
-Follow us on Instagram: https://www.instagram.com/amonkincloud/ \
-For queries write to us at: amonkincloud@gmail.com 
-
-
-
-
-
-
-
-
-
 # 🌟 Serverless Visitor Counter with AWS
-
-![Modern Serverless Architecture](https://i.imgur.com/JKQ4W0x.png)
 
 A beautiful, responsive web application demonstrating serverless architecture on AWS with:
 - **Frontend**: Hosted on S3 + CloudFront
@@ -60,30 +44,7 @@ A beautiful, responsive web application demonstrating serverless architecture on
 - Fully responsive design
 - 100% serverless infrastructure
 
-## 🛠️ Architecture
-```mermaid
-graph LR
-    A[User] --> B[CloudFront CDN]
-    B --> C[S3 Bucket]
-    C --> D[HTML/CSS/JS]
-    D --> E[Lambda Function URL]
-    E --> F[DynamoDB]
 
-
-Tip: Perfect for showcasing AWS serverless skills on LinkedIn!
----
-
-### Points forts de la nouvelle version :
-1. **Design professionnel** avec dégradés et animations CSS modernes
-2. **Expérience utilisateur améliorée** :
-   - Feedback visuel lors des interactions
-   - Animation du compteur
-   - Message de bienvenue temporaire
-3. **Code robuste** :
-   - Gestion des erreurs dans le JavaScript
-   - Intervalle de rafraîchissement du compteur
-4. **Responsive** : S'adapte à tous les écrans
-5. **Branding** : Mention des technologies AWS
 
 Pour votre post LinkedIn, je recommande :
 1. Une capture d'écran de la nouvelle interface
