@@ -29,7 +29,7 @@ async function updateAllCounters() {
 // Initialisation
 document.addEventListener('DOMContentLoaded', () => {
     updateAllCounters(); // Appel UNIQUE
-    setInterval(updateAllCounters, 30000);
+    // setInterval(updateAllCounters, 30000);
     
     // ... (le reste du code formulaire)
 });
